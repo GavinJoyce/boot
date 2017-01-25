@@ -1,0 +1,11 @@
+<h2>Closure Actions</h2>
+
+<button onclick={{action 'button1'}}>Button 1</button>
+<button onclick={{action 'button2'}}>Button 2</button>
+<button onclick={{action 'button3'}}>Button 3</button>
+
+<h2>Classic Actions</h2>
+
+<button {{action 'button1'}}>Button 1</button>
+<button {{action 'button2'}} {{action 'button2Up' on="mouseUp"}}>Button 2</button>
+<button {{action 'button3'}}>Button 3</button>

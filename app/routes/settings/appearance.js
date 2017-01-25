@@ -20,7 +20,7 @@ export default Ember.Route.extend({
     console.log(`GJ: ${this.routeName}.setupController`, arguments);
   },
   renderTemplate() {
-    debugger;
+    // debugger;
     this._super(...arguments);
     console.log(`GJ: ${this.routeName}.renderTemplate`, arguments);
   },

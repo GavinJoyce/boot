@@ -10,7 +10,12 @@ Router.map(function() {
   this.route('settings', function() {
     this.route('general');
     this.route('appearance');
-  })
+  });
+
+  this.route('actions', function() {
+    this.route('classic');
+    this.route('closure');
+  });
 });
 
 export default Router;
